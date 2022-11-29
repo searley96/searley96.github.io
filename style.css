@@ -5,53 +5,42 @@ body {
 
 .header{
   background-color: #83B1D3;
+  color:white;
+  font-family:Geogia;
   padding-left: 20px;
+  padding-bottom:1px;
+  padding-top: 5px;
+}
+.contact{
+  background-color: #83B1D3;
+  color:white;
+  font-family:Georgia;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  padding-top:1px;
 }
 
-.contact{
-  border-bottom: 1px solid #83B1D3;
-}
 .summary{
   border-top: 1px solid #83B1D3;
   border-bottom: 1px solid #83B1D3;
+  color: gray;
+  font-family: Georgia;
 }
 .edu{
   border-top: 1px solid #83B1D3;
   border-bottom: 1px solid #83B1D3;
-}
+  color: gray;
+  font-family: Georgia;
+  }
+
 .work{
   border-top: 1px solid #83B1D3;
   border-bottom: 1px solid #83B1D3;
+  color: gray;
+  font-family:Georgia;
 }
 .ref{
   border-top: 1px solid #83B1D3;
-}
-h1{
-  color: #FCFEFF;
-  font-size: 35px;
-  font-family: Georgia;
-}
-h2{
-  color:#83B1D3;
-  font-family: Georgia;
-}
-
-h3{
   color: gray;
-  font-family: Georgia;
-}
-
-h4{
-  color: gray;
-  font-family: Georgia;
-}
-
-h5{
-  color: gray;
-  font-family: Georgia;
-}
-
-li{
-  color: gray;
-  font-family: Georgia;
+  font-family:Georgia;
 }
