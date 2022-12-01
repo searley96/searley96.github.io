@@ -7,21 +7,11 @@ body {
   background-color: #83B1D3;
   color:white;
   font-family:Geogia;
-  padding-left: 20px;
-  padding-bottom:1px;
-  padding-top: 5px;
+  border-radius: 25px;
+  padding: 20px;
+  width: 650px;
 }
-.contact{
-  background-color: #83B1D3;
-  color:white;
-  font-family:Georgia;
-  padding-left: 20px;
-  padding-bottom: 5px;
-  padding-top:1px;
-}
-
-.summary{
-  border-top: 1px solid #83B1D3;
+.sum{
   border-bottom: 1px solid #83B1D3;
   color: gray;
   font-family: Georgia;
@@ -31,16 +21,15 @@ body {
   border-bottom: 1px solid #83B1D3;
   color: gray;
   font-family: Georgia;
-  }
-
-.work{
+}
+.employ{
   border-top: 1px solid #83B1D3;
   border-bottom: 1px solid #83B1D3;
   color: gray;
-  font-family:Georgia;
+  font-family: Georgia;
 }
 .ref{
   border-top: 1px solid #83B1D3;
   color: gray;
-  font-family:Georgia;
+  font-family: Georgia;
 }
