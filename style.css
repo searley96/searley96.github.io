@@ -1,35 +1,64 @@
-body {
-  background-color: #FCFEFF;
-  margin: 10% 20%;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.header{
-  background-color: #83B1D3;
-  color:white;
-  font-family:Geogia;
-  border-radius: 25px;
-  padding: 20px;
-  width: 650px;
+html{
+  color: #222;
 }
-.sum{
-  border-bottom: 1px solid #83B1D3;
-  color: gray;
-  font-family: Georgia;
+
+h1{
+  font-size: 2rem;
+  text-transform: uppercase;
 }
-.edu{
-  border-top: 1px solid #83B1D3;
-  border-bottom: 1px solid #83B1D3;
-  color: gray;
-  font-family: Georgia;
+
+h2{
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
 }
-.employ{
-  border-top: 1px solid #83B1D3;
-  border-bottom: 1px solid #83B1D3;
-  color: gray;
-  font-family: Georgia;
+
+h3{
+  font-size: 1.25 rem
 }
-.ref{
-  border-top: 1px solid #83B1D3;
-  color: gray;
-  font-family: Georgia;
+
+p{
+  line-height: 1.5;
 }
+
+section + section {
+  margin-top: 2rem;
+  
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile{
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 9999px;
+  width: 15rem;
+  height: 15rem;
+}
+
+.profile p{
+  color: #888;
+  margin-bottom: 1rem;
+  font-size: 1.25rem
+}
+
+.contact ul{
+  text-align: right;
+  text-transform: uppercase;
+  
+}
+
