@@ -10,32 +10,35 @@ html{
 }
 
 body{
-  padding: 1rem;
+  padding: 2rem 2.5rem;
+  background: linear-gradient(#888, #888 50%, #83b1d3 50%, #83b1d3);
 }
 
 h1{
   font-size: 2rem;
   text-transform: uppercase;
   font-family: "Josefin Sans";
+  color: #83b1d3;
 }
 
 h2{
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   border-top: 1px solid #888;
   border-bottom: 1px solid #888;
-  padding: 1rem 0;
+  padding: .75rem 0;
   margin-bottom: 2rem;
+  color: #83b1d3;
 }
 
 h3{
   font-size: 1.25 rem;
-  color: salmon;
+  color: #888;
 }
 
 h4{
   font-size: 1.25rem;
-  color: salmon;
+  color: #888;
   padding-bottom: 1rem;
 }
 
@@ -71,18 +74,12 @@ ul{
   height: 15rem;
 }
 
-.profile p{
-  color: #888;
-  margin-bottom: 1rem;
-  font-size: 1.25rem
-}
-
 .contact li{
   text-align: right;
   text-transform: uppercase;
   padding: 1rem;
   color: #888;
-  border-bottom: 1px solid #888;
+  font-size: .8rem
 }
 
 .ul{
@@ -104,5 +101,6 @@ ul{
   display: grid;
   grid-template-columns: 40% 1fr;
   grid-gap: 4rem;
+  background-color: #fcfeff;
+  padding: 4rem;
 }
-
