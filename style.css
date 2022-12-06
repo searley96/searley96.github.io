@@ -11,20 +11,21 @@ html{
 
 body{
   padding: 2rem 2.5rem;
-  background: linear-gradient(#888, #888 50%, #83b1d3 50%, #83b1d3);
+  background: linear-gradient(#83b1d3, #888);
 }
 
 h1{
   font-size: 2rem;
   text-transform: uppercase;
   color: #83b1d3;
+ 
 }
 
 h2{
   font-size: 1.1rem;
   text-transform: uppercase;
-  border-top: 1px solid #888;
-  border-bottom: 1px solid #888;
+  border-top: 1px solid #83b1d3;
+  border-bottom: 1px solid #83b1d3;
   padding: .75rem 0;
   margin-bottom: 2rem;
   color: #83b1d3;
@@ -53,6 +54,7 @@ section + section {
 li + li{
   margin-top: 1rem;
 }
+
 
 a{
   text-decoration: none;
@@ -94,7 +96,7 @@ ul{
 }
 
 .timeline .content{
-  border-left: 1px solid #888;
+  border-left: 1px solid #83b1d3;
   padding-left: 1rem;
   margin-left: 1rem;
 }
@@ -106,6 +108,3 @@ ul{
   background-color: #fcfeff;
   padding: 4rem;
 }
-
-
-
