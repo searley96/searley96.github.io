@@ -6,11 +6,17 @@
 
 html{
   color: #222;
+  line-height: 1.5rem;
+}
+
+body{
+  padding: 1rem;
 }
 
 h1{
   font-size: 2rem;
   text-transform: uppercase;
+  font-family: "Josefin Sans";
 }
 
 h2{
@@ -23,7 +29,14 @@ h2{
 }
 
 h3{
-  font-size: 1.25 rem
+  font-size: 1.25 rem;
+  color: salmon;
+}
+
+h4{
+  font-size: 1.25rem;
+  color: salmon;
+  padding-bottom: 1rem;
 }
 
 p{
@@ -35,9 +48,17 @@ section + section {
   
 }
 
+li + li{
+  margin-top: 1rem;
+}
+
 a{
   text-decoration: none;
   color: inherit;
+}
+
+ul{
+  list-style: none;
 }
 
 .profile{
@@ -56,9 +77,32 @@ a{
   font-size: 1.25rem
 }
 
-.contact ul{
+.contact li{
   text-align: right;
   text-transform: uppercase;
-  
+  padding: 1rem;
+  color: #888;
+  border-bottom: 1px solid #888;
+}
+
+.ul{
+  margin-top: -2rem
+}
+
+.timeline .event {
+  display: grid;
+  grid-template-columns: 5ch 1fr
+}
+
+.timeline .content{
+  border-left: 1px solid #888;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.resume{
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-gap: 4rem;
 }
 
