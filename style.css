@@ -17,7 +17,7 @@ body{
 h1{
   font-size: 2rem;
   text-transform: uppercase;
-  font-family: "Josefin Sans";
+  font-family
   color: #83b1d3;
 }
 
@@ -43,7 +43,7 @@ h4{
 }
 
 p{
-  line-height: 1.5;
+    line-height: 1.5;
 }
 
 section + section {
@@ -73,6 +73,8 @@ ul{
   width: 15rem;
   height: 15rem;
 }
+
+
 
 .contact li{
   text-align: right;
