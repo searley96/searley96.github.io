@@ -11,24 +11,24 @@ html{
 
 body{
   padding: 2rem 2.5rem;
-  background: linear-gradient(#83b1d3, #888);
+  background: linear-gradient(#6495ED, #888);
 }
 
 h1{
   font-size: 2rem;
   text-transform: uppercase;
-  color: #83b1d3;
- 
+  color: #6495ED;
+
 }
 
 h2{
   font-size: 1.1rem;
   text-transform: uppercase;
-  border-top: 1px solid #83b1d3;
-  border-bottom: 1px solid #83b1d3;
+  border-top: 1px solid #6495ED;
+  border-bottom: 1px solid #6495ED;
   padding: .75rem 0;
   margin-bottom: 2rem;
-  color: #83b1d3;
+  color: #6495ED;
 }
 
 h3{
@@ -81,7 +81,7 @@ ul{
 .contact li{
   text-align: right;
   text-transform: uppercase;
-  padding: 1rem;
+  padding-bottom: 1rem;
   color: #888;
   font-size: .8rem
 }
@@ -96,7 +96,7 @@ ul{
 }
 
 .timeline .content{
-  border-left: 1px solid #83b1d3;
+  border-left: 1px solid #6495ED;
   padding-left: 1rem;
   margin-left: 1rem;
 }
